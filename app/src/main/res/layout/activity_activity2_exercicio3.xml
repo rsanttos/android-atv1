@@ -5,19 +5,19 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        tools:context=".Activity2Exercicio3">
 
     <LinearLayout
             android:orientation="vertical"
             android:layout_width="368dp"
             android:layout_height="495dp" tools:layout_editor_absoluteY="8dp" tools:layout_editor_absoluteX="8dp">
-        <Button
-                android:text="Botão Exercicio 2"
+        <TextView
+                android:text="ACTIVITY 02 - EX 3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/btn01"/>
+                android:layout_height="wrap_content" android:id="@+id/textView2" android:textSize="24sp"/>
         <Button
-                android:text="Botão para exercicio 3"
+                android:text="Ir para Activity 1 - Exercício 3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/btnEx3"/>
+                android:layout_height="wrap_content" android:id="@+id/btn2Ex3"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
