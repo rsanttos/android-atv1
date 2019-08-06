@@ -11,10 +11,9 @@
             android:orientation="vertical"
             android:layout_width="368dp"
             android:layout_height="495dp" tools:layout_editor_absoluteY="8dp" tools:layout_editor_absoluteX="8dp">
-        <TextView
-                android:text="ACHOUUU"
+        <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/textView" android:textSize="30sp"
-                android:typeface="sans" app:fontFamily="sans-serif" android:textStyle="bold"/>
+                android:layout_height="wrap_content" app:srcCompat="@drawable/androidlogo"
+                android:id="@+id/imageView"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
